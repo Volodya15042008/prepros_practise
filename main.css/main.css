@@ -73,3 +73,207 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background-color: #445162;
+}
+.header .wrapper__header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .header__text {
+  color: #fff;
+}
+.header .header__title {
+  font-family: Arial Bold;
+  font-style: Normal;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+.header .header__subtitle {
+  font-family: Arial Bold;
+  font-style: Normal;
+  font-size: 20px;
+}
+
+.title {
+  font-family: Arial Bold;
+  font-style: Normal;
+  font-size: 30px;
+  color: #445161;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-style: Normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about__text {
+  margin-left: 50px;
+}
+
+.columns {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.columns .subtitle__title {
+  font-family: Arial Bold;
+  font-style: Normal;
+  font-size: 24px;
+}
+.columns .wrapper__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -8px;
+}
+.columns .columns__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding: 0px 8px;
+  margin: 0px 0px 30px 0px;
+}
+.columns .img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+}
+.columns .text__column {
+  padding: 0px 0px 0px 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.about {
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.align {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.align .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.align .align__span {
+  display: block;
+  background: #fff;
+  width: 98%;
+  height: 70px;
+  font-family: Arial;
+  font-style: Normal;
+  font-size: 40px;
+  color: #445161;
+  text-align: center;
+  padding-top: 20px;
+  border-left-width: 10px;
+  border-left-color: #445162;
+  margin: auto;
+}
+.align .align__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.align .text__align {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 15px;
+  line-height: 27px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.align .wrapper__align {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.align .align__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  background: #445162;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.align .align__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+}
+.align .align__button {
+  width: 90%;
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-family: Arial Bold;
+  font-style: Normal;
+  font-size: 18px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Arial;
+  font-style: Normal;
+  font-size: 12px;
+  background: #f5f5f5;
+}
