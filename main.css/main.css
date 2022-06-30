@@ -101,6 +101,7 @@ body {
   font-family: Arial Bold;
   font-style: Normal;
   font-size: 20px;
+  line-height: 25px;
 }
 
 .title {
@@ -148,11 +149,6 @@ body {
           flex: 0 1 50%;
   padding: 0px 8px;
   margin: 0px 0px 30px 0px;
-}
-.columns .img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 200px;
-          flex: 0 0 200px;
 }
 .columns .text__column {
   padding: 0px 0px 0px 15px;
@@ -276,4 +272,110 @@ body {
   font-style: Normal;
   font-size: 12px;
   background: #f5f5f5;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .about__text {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+
+  .wrapper__columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .header {
+    padding-left: 20px;
+  }
+  .header .list {
+    padding-bottom: 10px;
+  }
+
+  .align {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .columns {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper__align {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper__columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper__about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .align__item {
+    margin-bottom: 30px;
+  }
+
+  .about .img {
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__img {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .about__img {
+    width: 100%;
+  }
+
+  .columns__img {
+    width: 100px;
+  }
 }
